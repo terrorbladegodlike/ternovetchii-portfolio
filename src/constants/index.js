@@ -58,49 +58,12 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-    subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
-    logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
-    },
-    spotlight: '/assets/spotlight1.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
     title: 'LiveDoc - Real-Time Google Docs Clone',
     desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
     subdesc:
       'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project2.mp4',
+    href: 'https://live-docs-ten-lake.vercel.app/sign-in',
+    texture: '/textures/project/livedocs.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
       backgroundColor: '#13202F',
@@ -129,20 +92,216 @@ export const myProjects = [
         name: 'Framer Motion',
         path: '/assets/framer.png',
       },
+      {
+        id: 5,
+        name: 'Next JS',
+        path: '/assets/Nextjs.svg',
+      },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Monnica – Wordpress eCommerce Theme for ThemeForest.',
+    desc: 'Developed a premium eCommerce WordPress theme designed specifically for sale on ThemeForest. Built with full WooCommerce integration, the template supports a wide range of online store formats, from fashion and accessories to electronics and lifestyle brands',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+      'Focused on creating a highly customizable and user-friendly theme with an intuitive admin panel, dynamic product pages, AJAX-based filtering, quick add-to-cart functionality, and fully responsive design.',
+    href: 'https://monnica.fivestars-sites.com/',
+    texture: '/textures/project/monnica.mp4',
+    logo: '/assets/monnica.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        '#FFF',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Wordpress',
+        path: '/assets/wordpress.png',
+      },
+      {
+        id: 2,
+        name: 'HTML5',
+        path: '/assets/HTML5.svg',
+      },
+      {
+        id: 3,
+        name: 'CSS3',
+        path: '/assets/CSS.svg',
+      },
+      {
+        id: 4,
+        name: 'JavaScript',
+        path: '/assets/Javascript.svg',
+      },
+    ],
+  },
+  {
+    title: 'Isacenco Million Business Forum',
+    desc: 'Redesigned and fully redeveloped an existing WordPress website to meet the client’s specific requirements for the Million Business Forum. Performed a complete code refactoring to improve site performance, maintainability, and scalability. Customized the design and functionality to align with the client’s vision, including layout adjustments, content restructuring, tailored features to enhance user engagement, and full multilingual implementation to support additional languages',
+    subdesc:
+      'Focused on delivering a clean, professional interface optimized for both desktop and mobile devices, while ensuring seamless content management through WordPress admin. This project demonstrates my expertise in custom WordPress development, multilingual site implementation, client-oriented solutions, and delivering business-focused web platforms. ',
+    href: 'https://isacenco.milionclub.md/',
+    texture: '/textures/project/isacenco-millionclub.mp4',
+    logo: '/assets/isacenco.svg',
+    logoStyle: {
+      backgroundColor: '#60f5a1',
+      background:
+        '#000',
+      border: '0.2px solid #000',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Wordpress',
+        path: '/assets/wordpress.png',
+      },
+      {
+        id: 2,
+        name: 'HTML5',
+        path: '/assets/HTML5.svg',
+      },
+      {
+        id: 3,
+        name: 'CSS3',
+        path: '/assets/CSS.svg',
+      },
+      {
+        id: 4,
+        name: 'JavaScript',
+        path: '/assets/Javascript.svg',
+      },
+    ],
+  },
+  {
+    title: 'Alex Cernoutan – Personal Portfolio Website',
+    desc: 'Customized and optimized a purchased WordPress theme to create a personal portfolio website for the client, Alex Cernoutan. Focused on significant performance improvements by optimizing the template’s codebase, media assets, and loading speeds. Enhanced the website’s functionality through advanced use of WordPress editors and custom code modifications, ensuring seamless content management and flexibility for future updates.',
+    subdesc:
+      'Implemented SEO best practices and technical enhancements to improve search engine visibility and site discoverability. This project showcases my expertise in refining pre-built solutions to meet specific client goals, improving user experience, and delivering a fast, optimized, and search-friendly WordPress website.',
+    href: 'https://alexcernoutan.com/',
+    texture: '/textures/project/alex.mp4',
+    logo: '/assets/alex.png',
+    logoStyle: {
+      backgroundColor: '#60f5a1',
+      background:
+        '#343431',
+      border: '0.2px solid #343431',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Wordpress',
+        path: '/assets/wordpress.png',
+      },
+      {
+        id: 2,
+        name: 'HTML5',
+        path: '/assets/HTML5.svg',
+      },
+      {
+        id: 3,
+        name: 'CSS3',
+        path: '/assets/CSS.svg',
+      },
+      {
+        id: 4,
+        name: 'JavaScript',
+        path: '/assets/Javascript.svg',
+      },
+    ],
+  },
+  {
+    title: 'Five Stars Digital Agency Franchise Website',
+    desc: 'Developed a fully responsive and lightweight promotional website for the Five Stars Digital Agency franchise program. Built with clean HTML/CSS and Vanilla JavaScript, and structured with PHP to enable efficient multilingual support (English and Russian).',
+    subdesc:
+      'The project features modular PHP templates for easy content management and future scalability, along with a well-organized layout designed to highlight the benefits of joining the franchise. Focused on fast loading speed, clear call-to-action elements, and mobile-first design principles to maximize user engagement and lead generation potential.',
+    href: 'https://franchise.fivestars.agency/',
+    texture: '/textures/project/fransizefivestars.mp4',
+    logo: '/assets/fivestars.png',
+    logoStyle: {
+      backgroundColor: '#60f5a1',
+      background:
+        '#FFF',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'HTML5',
+        path: '/assets/HTML5.svg',
+      },
+      {
+        id: 2,
+        name: 'CSS3',
+        path: '/assets/CSS.svg',
+      },
+      {
+        id: 3,
+        name: 'JavaScript',
+        path: '/assets/Javascript.svg',
+      },
+    ],
+  },
+  {
+    title: 'Dispath.ee – Logistics Sercive Platform',
+    desc: 'Developed a modern, fully responsive logistics platform using React and TypeScript. The project focuses on delivering a seamless user experience with clean design, fast load times, and an intuitive interface across devices. Implemented component-based architecture for scalability and maintainability. Leveraged Tailwind CSS for rapid, consistent styling and clean layouts. The site includes well-structured content sections, smooth animations, and an integrated contact form prepared for backend processing.',
+    subdesc:
+      'This project highlights my expertise in building performant, scalable web applications with modern front-end technologies, tailored for business growth and lead generation in the logistics sector.',
+    href: 'https://dispatch.ee/',
+    texture: '/textures/project/dispatch.mp4',
+    logo: '/assets/dispatch.png',
+    logoStyle: {
+      backgroundColor: '#60f5a1',
+      background:
+        '#FFF',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'HTML5',
+        path: '/assets/HTML5.svg',
+      },
+      {
+        id: 3,
+        name: 'CSS3',
+        path: '/assets/CSS.svg',
+      },
+      {
+        id: 4,
+        name: 'JavaScript',
+        path: '/assets/Javascript.svg',
+      },
+
+    ],
+  },
+  {
+    title: 'BrainWave - Modern UI/UX Website',
+    desc: 'Developed a patient management system for online medical appointments. Integrated Twilio for real-time communication and appointment confirmations.',
+    subdesc:
+      'Focused on clean UI/UX to simplify the booking process for patients while maintaining efficient backend processes. Demonstrates proficiency in building healthtech solutions with seamless user experiences and third-party service integration.',
+    href: 'https://brainwave-seven-iota.vercel.app/',
+    texture: '/textures/project/brainware.mp4',
+    logo: '/assets/brainwave-symbol.svg',
+    logoStyle: {
+      backgroundColor: '#60f5a1',
+      background:
+        '#D8C8EC',
       border: '0.2px solid rgba(208, 213, 221, 1)',
       boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
     },
@@ -168,59 +327,29 @@ export const myProjects = [
         name: 'Framer Motion',
         path: '/assets/framer.png',
       },
-    ],
-  },
-  {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
-    logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
-    },
-    spotlight: '/assets/spotlight4.png',
-    tags: [
       {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        id: 5,
+        name: 'Next JS',
+        path: '/assets/Nextjs.svg',
       },
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'CarePulse - Health Management System',
+    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+    href: 'https://care-pulse-pied-theta.vercel.app/',
+    texture: '/textures/project/carepulse.mp4',
+    logo: '/assets/project-logo3.png',
     logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
+      backgroundColor: '#60f5a1',
+      background:
+        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
     },
-    spotlight: '/assets/spotlight5.png',
+    spotlight: '/assets/spotlight3.png',
     tags: [
       {
         id: 1,
@@ -260,29 +389,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
+    name: 'Five Stars Digital Agency',
+    pos: 'SEO Specialist & Web Developer',
     duration: '2022 - Present',
     title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    icon: '/assets/fivestars-removebg.png',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
+    name: 'Freelance',
     pos: 'Web Developer',
     duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    title: "During my freelance work as a Web Developer, I collaborated with clients and teams to design and develop web solutions. I relied on Figma for seamless real-time collaboration, enabling efficient feedback loops and iterative design processes. This experience honed my skills in both web development and effective client communication.",
+    icon: '/assets/what.svg',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
+    name: 'Hot Software',
     pos: 'Junior Web Developer',
     duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    title: "During my time at Hot Software as a Junior Web Developer, I focused on creating and maintaining web applications while improving project organization and task management. I used Notion to streamline workflows, centralize project documentation, and ensure efficient collaboration. This experience enhanced my development skills and strengthened my ability to manage projects effectively.",
+    icon: '/assets/git.svg',
     animation: 'salute',
   },
 ];
