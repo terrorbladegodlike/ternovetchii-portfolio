@@ -267,48 +267,6 @@ export const myProjects = [
         name: 'TypeScript',
         path: '/assets/typescript.png',
       },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-      {
-        id: 5,
-        name: 'Next JS',
-        path: '/assets/Nextjs.svg',
-      },
-    ],
-  },
-  {
-    title: 'IGAN – Smart Product Catalog for Pet Supplies',
-    desc: 'IGAN is a sleek and intuitive website built for a national distributor of pet products. Designed to serve both everyday customers and potential partners, the platform offers a clear and structured catalog that simplifies product discovery and brand engagement.',
-    subdesc:
-      'The site features user-friendly navigation and an interactive map to help visitors quickly locate nearby retail points across Moldova. As a result, IGAN gained a powerful digital presence that streamlines access to product information and strengthens connections with consumers and partners alike.',
-    href: 'https://igan.md/ru/',
-    texture: '/textures/project/igan.mp4',
-    logo: '/assets/igan.svg',
-    logoStyle: {
-      backgroundColor: '#FFF',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    },
-    spotlight: '/assets/spotlight2.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
     ],
   },
   {
@@ -492,7 +450,7 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Monnica – Wordpress eCommerce Theme for ThemeForest.',
+    title: 'Monnica – Wordpress eCommerce Theme for ThemeForest',
     desc: 'Developed a premium eCommerce WordPress theme designed specifically for sale on ThemeForest. Built with full WooCommerce integration, the template supports a wide range of online store formats, from fashion and accessories to electronics and lifestyle brands',
     subdesc:
       'Focused on creating a highly customizable and user-friendly theme with an intuitive admin panel, dynamic product pages, AJAX-based filtering, quick add-to-cart functionality, and fully responsive design.',
