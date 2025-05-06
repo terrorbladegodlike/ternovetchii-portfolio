@@ -58,6 +58,398 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: 'Top FOOD – Step-by-Step Recipes for Every Day',
+    desc: 'Top FOOD is a bilingual portal offering step-by-step recipes with photos and videos. The design, inspired by Pinterest, was highly appreciated by the client, making the platform visually appealing and user-friendly.',
+    subdesc:
+      'A bilingual portal with step-by-step recipes was developed, featuring photos, videos, and a blog. The platform includes thematic recipe collections and a portion calculator that adjusts ingredient quantities based on servings.',
+    href: 'https://topfood.club/',
+    texture: '/textures/project/topfood.mp4',
+    logo: '/assets/topfood.svg',
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+      {
+        id: 5,
+        name: 'Next JS',
+        path: '/assets/Nextjs.svg',
+      },
+    ],
+  },
+  {
+    title: 'SET – Premium Solutions for the Luxury Real Estate Market',
+    desc: 'SET is a modern digital platform created for a leader in the luxury real estate sector. The website reflects the premium nature and unique features of the offerings, improving the brand’s image and delivering an exceptional user experience.',
+    subdesc:
+      'A stylish and functional website was developed for SET, combining elegant design with ease of use. The optimized interface ensures effortless property search and exploration, while integrations with platforms like Bitrix and 999 simplify content management and business processes.',
+    href: 'https://set.md/en/',
+    texture: '/textures/project/setagency.mp4',
+    logo: '/assets/set.svg',
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 5,
+        name: 'Next JS',
+        path: '/assets/Nextjs.svg',
+      },
+    ],
+  },
+  {
+    title: 'SEEMRAY – Smart Window & Door Solutions for the U.S. Market',
+    desc: 'SEEMRAY is a refined digital platform for a U.S.-based manufacturer and installer of premium PVC and wooden windows and doors. The website enhances the brand’s credibility while helping customers easily explore tailored home improvement solutions.',
+    subdesc:
+      'Following a full-scale marketing audit, the site underwent strategic design and structural upgrades focused on SEO and user experience. A custom-built cost calculator was developed and seamlessly integrated, empowering visitors to estimate orders with precision and ease.',
+    href: 'https://www.seemray.com/',
+    texture: '/textures/project/seemray.mp4',
+    logo: '/assets/seemray.svg',
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 5,
+        name: 'Next JS',
+        path: '/assets/Nextjs.svg',
+      },
+    ],
+  },
+  {
+    title: 'Queen Dental – Precision Meets Innovation in Dental Care',
+    desc: 'Queen Dental is the official digital gateway for a German manufacturer of advanced dental materials and instruments. The site communicates clinical quality and innovation while serving as a trusted source of information for professionals in the dental industry.',
+    subdesc:
+      'Tailored to reflect the brand’s reputation, the platform features a product catalog, a dedicated section for authorized dealers, and a regularly updated news hub. The design balances clarity with modern aesthetics, aligning with both client expectations and SEO best practices.',
+    href: 'https://queendental.de/ru/',
+    texture: '/textures/project/quenn dental.mp4',
+    logo: '/assets/queendental.svg',
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+    ],
+  },
+  {
+    title: 'MiaFlori – Flower Delivery with a Personal Touch',
+    desc: 'MiaFlori is an elegant online flower delivery service that makes sending floral gifts across Moldova simple and memorable. The platform offers a curated shopping experience that blends emotion, convenience, and reliability.',
+    subdesc:
+      'Featuring a custom-designed interface, the store allows users to filter bouquets, schedule deliveries by date and time, and request a photo confirmation upon delivery. Integrated online payment ensures a smooth and secure checkout process, making the entire experience effortless for every customer.',
+    href: 'https://miaflori.md/ru',
+    texture: '/textures/project/mia flori.mp4',
+    logo: '/assets/miaflori.svg',
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+      {
+        id: 5,
+        name: 'Next JS',
+        path: '/assets/Nextjs.svg',
+      },
+    ],
+  },
+  {
+    title: 'IGAN – Smart Product Catalog for Pet Supplies',
+    desc: 'IGAN is a sleek and intuitive website built for a national distributor of pet products. Designed to serve both everyday customers and potential partners, the platform offers a clear and structured catalog that simplifies product discovery and brand engagement.',
+    subdesc:
+      'The site features user-friendly navigation and an interactive map to help visitors quickly locate nearby retail points across Moldova. As a result, IGAN gained a powerful digital presence that streamlines access to product information and strengthens connections with consumers and partners alike.',
+    href: 'https://igan.md/ru/',
+    texture: '/textures/project/igan.mp4',
+    logo: '/assets/igan.svg',
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+      {
+        id: 5,
+        name: 'Next JS',
+        path: '/assets/Nextjs.svg',
+      },
+    ],
+  },
+  {
+    title: 'IGAN – Smart Product Catalog for Pet Supplies',
+    desc: 'IGAN is a sleek and intuitive website built for a national distributor of pet products. Designed to serve both everyday customers and potential partners, the platform offers a clear and structured catalog that simplifies product discovery and brand engagement.',
+    subdesc:
+      'The site features user-friendly navigation and an interactive map to help visitors quickly locate nearby retail points across Moldova. As a result, IGAN gained a powerful digital presence that streamlines access to product information and strengthens connections with consumers and partners alike.',
+    href: 'https://igan.md/ru/',
+    texture: '/textures/project/igan.mp4',
+    logo: '/assets/igan.svg',
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+    ],
+  },
+  {
+    title: 'GT Design – Interior Studio Portfolio & Product Showcase',
+    desc: 'GT Design is a digital portfolio and product catalog for a team of professional interior designers. The website serves as both a visual gallery and a service hub, highlighting the studio’s work, offerings, and pricing in a clean, accessible format.',
+    subdesc:
+      'Emphasizing minimalism and attention to detail, the platform was designed to reflect the studio’s aesthetic values. Every element supports a refined user experience, allowing potential clients to explore projects and offerings with clarity and ease.',
+    href: 'https://gtdesign.md/',
+    texture: '/textures/project/gt-design.mp4',
+    logo: '/assets/gt-design.svg',
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+    ],
+  },
+  {
+    title: 'DVGroup – International Logistics Made Simple',
+    desc: 'DVGroup is the official digital platform of a global logistics company, offering comprehensive international freight solutions. The website reflects the company’s reliability and scale, providing users with easy access to essential services and information.',
+    subdesc:
+      'Developed with a strong focus on UI/UX standards, the platform includes interactive cost calculators that allow users to estimate shipping expenses quickly and accurately. Every detail was crafted to match the client’s expectations, ensuring both functionality and a professional online presence.',
+    href: 'https://dvgroup.pro/ru/',
+    texture: '/textures/project/DV Group.mp4',
+    logo: '/assets/dvgroup.svg',
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+      {
+        id: 5,
+        name: 'Next JS',
+        path: '/assets/Nextjs.svg',
+      },
+    ],
+  },
+  {
+    title: 'Contigo – Everyday Lifestyle eCommerce',
+    desc: 'Contigo is a modern online store designed for a lifestyle brand that offers everyday products for both adults and children. The platform provides a seamless shopping experience tailored to the local market, making it easy for users to find and purchase quality essentials.',
+    subdesc:
+      'Adapted from a custom-fit template, the store features integrated online payments, real-time inventory and pricing sync, and advanced product filtering by color and size. A personalized user account section allows customers to track their order history and manage delivery addresses, while an email export system supports targeted marketing campaigns.',
+    href: 'https://contigo.md/',
+    texture: '/textures/project/contigo.mp4',
+    logo: '/assets/contigo.svg',
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+      {
+        id: 5,
+        name: 'Next JS',
+        path: '/assets/Nextjs.svg',
+      },
+    ],
+  },
+  {
+    title: 'AutoPlus - Certified Automotive Service Platform',
+    desc: 'AutoPlus is a high-performance web platform built for a certified automotive service provider. Designed to combine trust, professionalism, and technology, it delivers a seamless digital experience for car owners looking for reliable diagnostics, repairs, and maintenance.',
+    subdesc:
+      'Built with React, Next.js, and TypeScript, AutoPlus offers blazing-fast performance, responsive design, and a clean UI that reflects the brand’s certified quality. The platform makes it easy for users to explore services, get in touch, and book appointments — all within a modern, intuitive interface.',
+    href: 'https://aplus.md/',
+    texture: '/textures/project/aplus.mp4',
+    logo: '/assets/aspus.svg',
+    logoStyle: {
+      backgroundColor: '#FFF',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+      {
+        id: 5,
+        name: 'Next JS',
+        path: '/assets/Nextjs.svg',
+      },
+    ],
+  },
+  {
     title: 'LiveDoc - Real-Time Google Docs Clone',
     desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
     subdesc:
