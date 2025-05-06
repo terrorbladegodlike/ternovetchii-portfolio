@@ -391,7 +391,7 @@ export const workExperiences = [
     id: 1,
     name: 'Five Stars Digital Agency',
     pos: 'SEO Specialist & Web Developer',
-    duration: '2021 - 2024',
+    duration: 'December 2021 - April 2025',
     title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
     icon: '/assets/fivestars-removebg.png',
     animation: 'victory',
