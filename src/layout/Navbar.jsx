@@ -9,6 +9,14 @@ const navLinks = [
   { href: "#testimonials", label: "Testimonials" },
 ];
 
+const scrollToContact = () => {
+  const contactSection = document.getElementById("contact");
+  if (contactSection) {
+    contactSection.scrollIntoView({ behavior: "smooth" });
+  }
+  setIsMobileMenuOpen(false); // Закрываем мобильное меню, если оно открыто
+};
+
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,7 +42,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
-          PM<span className="text-primary">.</span>
+          MT<span className="text-primary">.</span>
         </a>
 
         {/* Desktop Nav */}
@@ -54,7 +62,7 @@ export const Navbar = () => {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button size="sm">Contact Me</Button>
+          <Button size="sm" onClick={scrollToContact}>Contact Me</Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -81,7 +89,7 @@ export const Navbar = () => {
               </a>
             ))}
 
-            <Button onClick={() => setIsMobileMenuOpen(false)}>
+            <Button onClick={scrollToContact}>
               Contact Me
             </Button>
           </div>

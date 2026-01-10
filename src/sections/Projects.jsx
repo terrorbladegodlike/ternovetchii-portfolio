@@ -2,39 +2,57 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Monnica",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
+      "Developed a premium eCommerce WordPress theme designed specifically for sale on ThemeForest. Built with full WooCommerce integration, the template supports a wide range of online store formats, from fashion and accessories to electronics and lifestyle brands",
+    image: "/projects/project-monnica.jpg",
+    tags: ["Wordpress", "WooCommerce", "MySQL"],
+    link: "https://monnica.fivestars-sites.com/",
     github: "#",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Barbara Collections",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
+      "Barbara Collection is a women's clothing brand offering a wide range of wardrobe items from swimwear to outerwear. This brand asked us to create a trending online store in the style of",
+    image: "/projects/project-barbara.jpg",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
+    link: "https://barbaracollection.com/ru",
     github: "#",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Racefinder",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
+      "RaceFinder is an online platform designed to search, track, and participate in sports events: races, bike races, swimming, triathlons, and duathlons. The project is aimed at amateur athletes, professionals and organizers, providing an intuitive interface with advanced filtering capabilities and multilingual support.",
+    image: "/projects/project-one.png",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
+    link: "https://www.racefinder.pt/",
     github: "#",
   },
   {
-    title: "Project Management Tool",
+    title: "Academia Wine",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
+      "The website of the new wine brand, Purcari group of companies, in which we focused on stylish design and a visual demonstration of the line of collectible wines. Convenient navigation allows you to quickly and easily find the necessary information about wine and its properties, as well as about the manufacturer and its history. In general, the site emphasizes the bottle design, it turned out to be concise and user-friendly. The functionality is implemented in html to ensure fast page loading.",
+    image: "/projects/project-two.jpg",
     tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
+    link: "https://academia.wine/",
+    github: "#",
+  },
+  {
+    title: "Alex Cernoutan",
+    description:
+      "Customized and optimized a purchased WordPress theme to create a personal portfolio website for the client, Alex Cernoutan. Focused on significant performance improvements by optimizing the template’s codebase, media assets, and loading speeds. Enhanced the website’s functionality through advanced use of WordPress editors and custom code modifications, ensuring seamless content management and flexibility for future updates.",
+    image: "/projects/project-three.jpg",
+    tags: ["Wordpress", "WooCommerce", "MySQL", "Redis"],
+    link: "https://alexcernoutan.com/",
+    github: "#",
+  },
+  {
+    title: "Isacenco Million Club",
+    description:
+      "Redesigned and fully redeveloped an existing WordPress website to meet the client’s specific requirements for the Million Business Forum. Performed a complete code refactoring to improve site performance, maintainability, and scalability. Customized the design and functionality to align with the client’s vision, including layout adjustments, content restructuring, tailored features to enhance user engagement, and full multilingual implementation to support additional languages.",
+    image: "/projects/project-four.jpg",
+    tags: ["Wordpress", "WooCommerce", "MySQL", "Redis"],
+    link: "https://isacenco.milionclub.md/ru/",
     github: "#",
   },
 ];
@@ -89,14 +107,9 @@ export const Projects = () => {
                   <a
                     href={project.link}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+                    target="_blank"
                   >
                     <ArrowUpRight className="w-5 h-5" />
-                  </a>
-                  <a
-                    href={project.github}
-                    className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
-                  >
-                    <Github className="w-5 h-5" />
                   </a>
                 </div>
               </div>
@@ -107,12 +120,17 @@ export const Projects = () => {
                   <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
                     {project.title}
                   </h3>
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    >
                   <ArrowUpRight
                     className="w-5 h-5 
                   text-muted-foreground group-hover:text-primary
                    group-hover:translate-x-1 
                    group-hover:-translate-y-1 transition-all"
                   />
+                </a>
                 </div>
                 <p className="text-muted-foreground text-sm">
                   {project.description}

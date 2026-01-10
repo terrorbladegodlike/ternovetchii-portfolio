@@ -14,19 +14,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "pedro@example.com",
-    href: "mailto:pedro@example.com",
+    value: "ternovetchii.2002@gmail.com",
+    href: "mailto:ternovetchii.2002@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+37379962199",
+    href: "tel:+37379962199",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Chisinau, MD",
     href: "#",
   },
 ];
@@ -45,20 +45,20 @@ export const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     setIsLoading(true);
     setSubmitStatus({ type: null, message: "" });
+
     try {
       const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
       const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
       const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
+      // Проверка наличия ключей
       if (!serviceId || !templateId || !publicKey) {
-        throw new Error(
-          "EmailJS configuration is missing. Please check your environment variables."
-        );
+        throw new Error("Конфигурация EmailJS отсутствует в .env");
       }
 
+      // Отправка данных
       await emailjs.send(
         serviceId,
         templateId,
@@ -75,17 +75,17 @@ export const Contact = () => {
         message: "Message sent successfully! I'll get back to you soon.",
       });
       setFormData({ name: "", email: "", message: "" });
-    } catch (err) {
-      console.error("EmailJS error:", error);
+    } catch (err) { // Исправлено с error на err
+      console.error("EmailJS error:", err);
       setSubmitStatus({
         type: "error",
-        message:
-          error.text || "Failed to send message. Please try again later.",
+        message: err.text || "Failed to send message. Please try again later.",
       });
     } finally {
       setIsLoading(false);
     }
   };
+  
   return (
     <section id="contact" className="py-32 relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full">
