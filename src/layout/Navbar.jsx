@@ -9,25 +9,30 @@ const navLinks = [
   { href: "#testimonials", label: "Testimonials" },
 ];
 
-const scrollToContact = () => {
-  const contactSection = document.getElementById("contact");
-  if (contactSection) {
-    contactSection.scrollIntoView({ behavior: "smooth" });
-  }
-  setIsMobileMenuOpen(false); // Закрываем мобильное меню, если оно открыто
-};
-
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+
+  // Исправленная функция для JSX (удалены типы TypeScript)
+  const handleScrollTo = (e, targetId) => {
+    e.preventDefault(); // Это убирает # из адресной строки
+
+    // Убираем символ #, чтобы найти элемент по чистую ID
+    const cleanId = targetId.startsWith("#") ? targetId.substring(1) : targetId;
+    const element = document.getElementById(cleanId);
+
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+
+    setIsMobileMenuOpen(false);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -35,12 +40,16 @@ export const Navbar = () => {
     <header
       className={`fixed top-0 left-0 right-0 transition-all duration-500 ${
         isScrolled ? "glass-strong py-3" : "bg-transparent py-5"
-      }  z-50`}
+      } z-50`}
     >
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a
-          href="#"
+          href="/"
           className="text-xl font-bold tracking-tight hover:text-primary"
+          onClick={(e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
         >
           MT<span className="text-primary">.</span>
         </a>
@@ -52,7 +61,8 @@ export const Navbar = () => {
               <a
                 href={link.href}
                 key={index}
-                className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface"
+                onClick={(e) => handleScrollTo(e, link.href)}
+                className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground rounded-full hover:bg-surface transition-colors"
               >
                 {link.label}
               </a>
@@ -62,7 +72,9 @@ export const Navbar = () => {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button size="sm" onClick={scrollToContact}>Contact Me</Button>
+          <Button size="sm" onClick={(e) => handleScrollTo(e, "contact")}>
+            Contact Me
+          </Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -76,20 +88,20 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden glass-strong animate-fade-in">
+        <div className="md:hidden glass-strong animate-fade-in border-b border-border/50">
           <div className="container mx-auto px-6 py-6 flex flex-col gap-4">
             {navLinks.map((link, index) => (
               <a
                 href={link.href}
                 key={index}
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="text-lg text-muted-foreground hover:text-foreground py-2"
+                onClick={(e) => handleScrollTo(e, link.href)}
+                className="text-lg text-muted-foreground hover:text-foreground py-2 transition-colors"
               >
                 {link.label}
               </a>
             ))}
 
-            <Button onClick={scrollToContact}>
+            <Button onClick={(e) => handleScrollTo(e, "contact")}>
               Contact Me
             </Button>
           </div>
