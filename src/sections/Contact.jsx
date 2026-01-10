@@ -27,7 +27,7 @@ const contactInfo = [
     icon: MapPin,
     label: "Location",
     value: "Chisinau, MD",
-    href: "#",
+    href: "https://www.google.com/maps/place/%D0%9A%D0%B8%D1%88%D0%B8%D0%BD%D1%91%D0%B2,+%D0%9C%D0%BE%D0%BB%D0%B4%D0%BE%D0%B2%D0%B0/@46.9994458,28.5463584,11z/data=!3m1!4b1!4m6!3m5!1s0x40c97c3628b769a1:0x37d1d6305749dd3c!8m2!3d47.0104529!4d28.8638102!16zL20vMGZuNzc?hl=ru&entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D",
   },
 ];
 
